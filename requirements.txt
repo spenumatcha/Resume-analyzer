@@ -1,0 +1,7 @@
+streamlit
+python-dotenv
+groq
+httpx
+PyPDF2
+python-docx
+requests 
