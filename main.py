@@ -36,6 +36,7 @@ def analyze_resume(resume_text: str, job_description: str) -> dict:
         "weaknesses": "List areas where the resume could be improved to better match the job requirements. Format as bullet points.",
         "suggestions": "Provide specific, actionable suggestions to improve the resume and increase chances of selection. Format as bullet points.",
         "assessment": "Provide a brief overall assessment of the candidate's fit for the position (2-3 sentences)."
+        "Match Percentage": percentage match to the Job description
     }}
 
     Resume:
@@ -50,6 +51,7 @@ def analyze_resume(resume_text: str, job_description: str) -> dict:
     3. Achievements and impact
     4. Overall presentation and formatting
     5. Specific improvements that would make the candidate more competitive
+    6. Match percentage 
 
     Important:
     - Your response must be a valid JSON object with exactly these keys: strengths, weaknesses, suggestions, and assessment.
